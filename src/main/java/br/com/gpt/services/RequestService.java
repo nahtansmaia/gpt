@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class RequestService {
 
-    OpenAiService service = new OpenAiService("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");
+    OpenAiService service = new OpenAiService("");
 
     public MessageResponseDTO translateMessage(String messageForTranslate, String languageForTranslate) {
         var messages = new ArrayList<String>();
